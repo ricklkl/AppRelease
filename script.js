@@ -115,7 +115,7 @@ function typeBuilder(item) {
     var build = '';
     build += '<li class="d-flex flex-items-start mb-2">';
     build += '<div class="change-badge change-badge-' + item.type + '">' + item.type + '</div>';
-    build += '<div class="change-description"><strong>' + item.title + '</strong> - ' + item.description + '</div>';
+    build += '<div class="change-description"><strong>' + item.title + '</strong><br> ' + item.description + '</div>';
     build += '</li>';
     return build;
 }
